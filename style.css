@@ -1,0 +1,64 @@
+/* Estilos básicos da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Container do gráfico */
+.chart-container {
+    width: 70%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo da seção informativa */
+.info {
+    width: 70%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #4CAF50;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
